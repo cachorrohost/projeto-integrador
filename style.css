@@ -1,0 +1,61 @@
+.bolinha{
+	width: 20px;
+	height: 20px;
+	background-color: blue;
+	border-radius: 50%;	
+	position: relative;
+
+	animation-name: bolinhas;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+.bolinha1{
+	
+	background-color: blue;
+    }
+
+.bolinha2{
+	transform: translateY(-20px);
+	animation-delay: 0.2s;
+	background-color: green;
+
+}
+
+
+
+.bolinha3{
+
+	background-color: red;
+	transform: translateY(-40px);
+	animation-delay: 0.4s;
+
+}
+@keyframes bolinhas {
+	0% {
+		left: 0px;
+		top: 0px;
+	}
+	25% {
+		left: 200px;
+		top: 200px;
+
+	}
+	50% {
+		left: 200px;
+		top: 0px;
+		filter: hue-rotate(240deg);
+	}	
+
+	75% {
+		left: 0px;
+		top: 200px;
+	}    
+	100% {
+		 left: 0px;
+		 top: 0px;
+	}
+}
+
+	
