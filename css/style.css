@@ -1,0 +1,14 @@
+ @import url('https://fonts.googleapis.com/css?family=Inconsolata|Thasadith');
+
+body {
+	font-family: 'Inconsolata', monospace;
+	font-size: 1.5em !important;
+}
+
+.jumbotron {
+	border-radius: 0px !important;
+}
+
+.fundo--tomato{
+	background-color: tomato !important;
+}
