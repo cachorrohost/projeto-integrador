@@ -12,3 +12,9 @@ body {
 .fundo--tomato{
 	background-color: tomato !important;
 }
+.rodape{
+	height: 800px;
+}
+.gradiente{background-image: linear-gradient(to left, #8AFF00, #FE0472);
+
+}
